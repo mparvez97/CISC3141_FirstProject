@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+    <head>
+        <title>The Best Car Collection In The World</title>
+        <style>
+            body {
+                background-color: ghostwhite;
+            }
+            .products {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-column-gap: 20px;
+                border: 4px solid #ededed;
+                padding: 15px;
+                background-color: white;
+                border-radius: 10px;
+            }
+            .pd-container img {
+                width: 100%;
+            }
+            .others-products {
+                margin-top: 30px;
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-column-gap: 20px;
+                border: 4px solid #ededed;
+                padding: 15px;
+                margin-bottom: 30px;
+                background-color: white;
+                border-radius: 10px;
+            }
+            table {
+                margin-top: 20px;
+            }
+            table, th, td {
+                border: 1px solid black;
+            }
+            td {
+                padding: 10px;
+            }
+        </style>
+        <link rel="stylesheet" href="Style/style.css">
+    </head>
+    <body>
+        <div class="main-page-cover" style="width: 100%; height: 100vh;">
+            <header>
+                <div class="wraper">
+                    <div class="title">
+                        <img src="Images/logo.jpeg" alt="logo" style="width: 60px; ">
+                        <h2 style="font-size: 20px; margin-left: 15px;">RCB</h2>
+                    </div>
+                    <div class="menu">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="Pages/about.html">About</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <div class="body">
+            <summary style="margin: 30px 0 30px 0; background: white; padding: 20px; border-radius: 10px; border: 4px solid #ededed;">
+                <h1 style="margin-bottom: 10px;">Regular Car of Brooklyn</h1>
+                <p>
+                    Based in Brooklyn, NYC, RCB was founded ni 2010 bringing the award wining car to the USA with our newest edition to the line up, RCB 1 and RCB 2. Despite being camparatively new to the USA, our global network is extremely well established. We have almost 100 years of automotive experience and experties behind us.
+                </p>
+            </summary>
+            <div class="products">
+                <div class="p1-container pd-container">
+                    <img src="Images/Toyota.jpeg" alt="">
+                    <summary>
+                        <h2>RCB 1: </h2>
+                        <p>A true family SUV. Whether you are navigating the weekday school run or travelling the wildest weekend, RCB 1 has you covered for the routine, extreme and everything in between
+                        </p>
+                        <table>
+                            <tr>
+                                <td>MSRP:</td>
+                                <td>$45,000</td>
+                            </tr>
+                            <tr>
+                                <td>Features and specs:</td>
+                                <td style="padding: 30px;">
+                                    <ol>
+                                        <li>4-seater  </li>
+                                        <li>Front and Back AC </li>
+                                        <li>Leather Seats </li>
+                                        <li>Sun Roof </li>
+                                    </ol>
+                                </td>
+                            </tr>
+                        </table>
+                    </summary>
+                </div>
+                <div class="p2-container pd-container">
+                    <img src="Images/Civic.jpeg" alt="">
+                    <summary>
+                        <h2>RCB 2</h2>
+                        <p>
+                            All new sedan of 2021 trunks up the fun, sporty look and ride with Boose speaker
+                        </p>
+                        <table>
+                            <tr>
+                                <td>MSRP:</td>
+                                <td>$27,000</td>
+                            </tr>
+                            <tr>
+                                <td>Features and specs:</td>
+                                <td>
+                                    4-seater  <br>
+                                    Audio System <br>
+                                    Led lights  <br>
+                                    18-inch wheels <br>
+                                    MSRP <br>
+                                </td>
+                            </tr>
+                        </table>
+                    </summary>
+                </div>
+            </div>
+            <div class="others-products">
+                <div class="p1-container pd-container">
+                    <img src="Images/car1.jpeg" alt="car1">
+                    <summary style="font-size: 20px; margin-top: 10px; font-weight: bold;">
+                        <p>
+                            Toyota Camry 2020 <br>
+                            Price: 19k
+                        </p>
+                    </summary>
+                </div>
+                <div class="p2-container pd-container">
+                    <img src="Images/car2.jpeg" alt="car2">
+                    <summary style="font-size: 20px; margin-top: 10px; font-weight: bold;">
+                        <p>
+                            Nissan Maxima 2020 <br>
+                            Price:15k
+                        </p>
+                    </summary>
+                </div>
+                <div class="p2-container pd-container">
+                    <img src="Images/car3.jpeg" alt="car3">
+                    <summary style="font-size: 20px; margin-top: 10px; font-weight: bold;">
+                        <p>
+                            ALFA Romeo <br>
+                            Price:50k
+                        </p>
+                    </summary>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
